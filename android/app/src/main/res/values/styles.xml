@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Focus is always dark, so the splash and window match the app from the first frame. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:statusBarColor">@color/focus_background</item>
+        <item name="android:navigationBarColor">@color/focus_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/focus_background</item>
+        <item name="android:statusBarColor">@color/focus_background</item>
+        <item name="android:navigationBarColor">@color/focus_background</item>
+    </style>
+    <style name="BlockTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/focus_background</item>
+    </style>
+</resources>

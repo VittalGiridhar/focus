@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_label">Focus app limits</string>
+    <string name="accessibility_service_description">Lets Focus notice which app is open so it can show a limit-reached screen over apps you chose to limit. Focus does not read what is on your screen or collect your data.</string>
+</resources>
